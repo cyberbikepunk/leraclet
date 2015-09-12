@@ -1,3 +1,3 @@
 #LeRaclet
 
-A minimalist, responsive and bilingual WordPress site live at [leraclet.com](http://leraclet.com).
+A minimalist, responsive and bilingual WordPress theme live at [leraclet.com](http://leraclet.com).
