@@ -1,0 +1,38 @@
+/*
+ Theme Name: Le Raclet
+ Theme URI: http://leraclet.com
+ Author: Opabinia75
+ Author URI: http://opabinia.dev
+ Description: A minimalist, responsive and multilingual portfolio theme.
+ Version: 1.0
+ License: GNU General Public License v2 
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: bootstrap, responsive, mulitlingual, portfolio
+ Text Domain: 
+ */
+
+/* ------------------------------------------------------------------
+ * CSS base file
+ *-----------------------------------------------------------------*/
+
+@import url('bootstrap/css/bootstrap.min.css'); 
+@import url('css/general.css'); 
+@import url('css/carousel.css'); 
+@import url('css/menus.css'); 
+@import url('css/navbar.css'); 
+
+@font-face {
+	font-family: lekton-bold;
+	src: url('fonts/Lekton-Bold.ttf');
+} 
+@font-face {
+	font-family: lekton-italic;
+	src: url('fonts/Lekton-Italic.ttf');
+} 
+@font-face {
+	font-family: lekton-regular;
+	src: url('fonts/Lekton-Regular.ttf');
+}
+
+
+

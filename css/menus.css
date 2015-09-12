@@ -1,0 +1,113 @@
+/**
+ * Le Raclet stylesheet : main menu (header/footer) and language menu
+ *
+ * Overrides Bootstrap defaults. This should really   
+ * be done by modifying LESS source files.
+ *
+ * Opabinia75, opabinia@opabinia.de
+ * v1 07/14
+ */
+
+/*-----------------------------------------------------------------
+ * Identifiers 
+ *----------------------------------------------------------------*/
+
+#lr-header-menu,
+#lr-footer-menu,
+#lr-language-menu {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 0;
+}
+#lr-header-menu,
+#lr-language-menu {
+	font-size: 14.11pt;
+	line-height: 15.68pt;
+}
+#lr-footer-menu * a,
+#lr-header-menu * a {
+	padding: 0;
+}
+#lr-language-menu * a {
+	position: relative;
+	padding: 0 7px 0 7px;
+}
+#lr-footer-menu * .lr-strike-through {
+	display: none;
+}
+#lr-header-menu * span {
+	vertical-align: baseline;
+}
+#lr-header-menu * li {
+	border-left: solid 1px rgb(238,238,238);
+	vertical-align: middle;
+}
+#lr-language-menu * li {
+	padding: 0;	
+}
+#lr-header-menu * li:hover, 
+#lr-header-menu * li:focus  {
+	border-left-color: rgb(23, 41, 130);
+}
+#lr-header-menu * li.lr-current:hover, 
+#lr-header-menu * li.lr-current:focus  {	
+	border-left-color: inherit;
+}
+#lr-caption > p {
+	padding: 0 5px 0 5px;
+}
+
+/* ------------------------------------------------------------------
+ * Classes 
+ *-----------------------------------------------------------------*/
+
+.lr-column {
+	padding-bottom: 9px;
+}
+.lr-overlay-full {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding: 15px;
+	font-size: 13px;	
+}
+.lr-overlay-stripe {
+	display: none;
+	background-color: rgba(23,41,130,0.8);
+	overflow: hidden;
+}
+.lr-overlay-frame h2 {
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 7px 10px 3px 10px;
+}
+.lr-overlay-frame {
+	position: relative;
+	display: block;
+}
+.lr-overlay-text {
+	color: white;
+	font-size: bold;
+}
+.lr-overlay-info {
+	position: absolute;
+	top: 25%;
+	padding: 0px 0px 20px 7px;
+}
+.lr-left {
+	float: left;
+}
+.lr-current {
+	border-left-color: inherit;
+}
+.lr-strike-through {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: inherit;
+}
